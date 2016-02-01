@@ -1,0 +1,239 @@
+.body {
+  margin: 0px;
+}
+  
+h1 {
+  font-family: Moon Flower;
+  font-size: 120px;
+  padding-top: 50vh;
+  transform: translateY(-90px);
+  font-weight: 400;
+  margin: 0 auto;
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  background-image: url(assets/james.jpg); 
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.containerhalf {
+  min-height: 100vh;
+  background-image: url(assets/james.jpg);
+  /*background-image: url(file:///Users/Joel/Desktop/james-joyce-pink.jpg);*/ 
+  background-size: cover;
+  background-position: center center;
+  /*background-attachment: fixed;*/
+}
+
+.container2 {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #212121;
+}
+
+.container3 {
+  min-height: 110vh;
+  background-image: url(file:///Users/Joel/Desktop/books-light.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.black-transparent {
+  display: inline-block;
+  height: 110vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.container4 {
+  min-height: 100vh;
+  background-image: url(file:///Users/Joel/Desktop/metal-bckgrnd-1.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container5 {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #212121;
+}
+
+.container6 {
+  min-height: 100vh;
+  background-color: black;
+  position: absolute;
+  text-align: center;
+}
+
+.left-square {
+  min-width: 50vw;
+  background-color: #99DFD5;
+  float: left;
+  height: 100vh;
+}
+
+.right-square {
+  min-width: 50vw;
+  background-color: #FF0276;
+/*    background-color: #99DFD5;*/
+  float: left;
+  height: 100vh;
+}
+
+.big-box {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  left: 50%;
+  top: 20vh;
+  box-shadow: -10px 10px 16px 0px rgba(0,0,0,0.3);
+  transform: translateX(-150px);
+  text-align: center;
+/*  background-image: url(file:///Users/Joel/Desktop/light-on-black.jpg);*/
+  background-size: cover;
+  background-position: center center;
+}
+
+.in-box {
+  color: black;
+  border: solid black 1px;
+  font-family: helvetica;
+  display: inline-block;
+  padding: 10px 40px;
+  margin-top: 100%;
+}
+
+h2 {
+  font-family: Moon Flower;
+  font-weight: 100;
+  font-size: 100px;
+  color: white;
+  display: inline-block;
+  padding: 60px 30px;
+  margin-left: 65px;
+  margin-top: 130px;
+}
+
+.nav {
+  border-bottom: 0px solid white;
+  font-family: lekton;
+    padding: 0;
+    margin: 0;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+  position: absolute;
+
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.square {
+  max-width: 33.3%;
+  float: left;
+}
+
+.square2 {
+  max-width: 33.3%;
+  float: left;
+}
+
+.square3 {
+  max-width: 33.3%;
+  float: left;
+}
+
+.overlay {
+  height: 95vh;
+  text-align: center;
+  max-width: 100vw;
+}
+
+.scroll {
+  font-family: Moon Flower Bold;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 50px;
+  border: white 2px solid;
+  font-family: helvetica;
+  text-decoration: none;
+  color: white;
+  transition: padding 2s;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,0.4);
+  padding: 20px 75px;
+}
+
+.text-animation {
+  animation-name: text-animation;
+    animation-duration: 1.5s;
+}
+
+@keyframes text-animation {
+  0%   {margin-left: -200px; color: rgba(255,255,255,0.0);}
+  50%  {margin-left: -200px; color: rgba(255,255,255,0.0);}
+  100% {margin-left: 65px;}
+}
+
+.second-animation {
+  animation-name: second-animation;
+  animation-duration: 2.5s;
+  position: relative;
+}
+
+@keyframes second-animation {
+  0%    {color: rgba(255,255,255,0.0);}
+  100%  {color: rgba(255,255,255,1);}
+}
+
+.last-ever {
+  background-image: url(file:///Users/Joel/Desktop/light%20light/blackened-light.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0px;
+  color: white;
+  text-align: left;
+  font-family: Moon Flower;
+  font-size: 100px;
+  padding: 15% 10% 0% 0%;
+  float: right;
+}
+
+*::selection{
+  background: rgba(255, 2, 118, 0.4);
+}
